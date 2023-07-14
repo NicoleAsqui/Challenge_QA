@@ -1,0 +1,7 @@
+Hallazgos y conclusiones del ejercicio:
+
+Al realizar el flujo de pruebas cuando se deseaba añadir un producto al carrito y posteriormente se evaluaba que el total del carrito sea la suma de los productos seleccionados, se encontró el algunas ocasiones que el test fallaba, es decir la suma esperada no era la suma total correcta, esto se debía a que no se estaban seleccionando el total correctamente de la página pues se impedía por una alerta de confrmacikón que se muestra en la página cuando se añade un producto. 
+
+Este test que corre algunas veces y otras falla se le conoce como flakyTest, esta falencia fue mejorada cqapturando la alerta y esperando que se rendericen correctamente todos los componentes antes de extraer los datos. 
+
+Este proyecto intenta seguir un patrón de diseño conocido como Screenplay en donde existen actores que realizan acciones y tareas, puede ser mejorado para apegarse mejor a la estructura.
