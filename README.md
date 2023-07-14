@@ -2,9 +2,9 @@
 
 This project was developed on a Mac but can be run on any device that contains it:
 
-- JDK version 3.8 
+- JDK version 11.0
 - Serenity 3.5
-- Maven version 3.8
+- Maven version 3.9.3
 - IntelliJ IDE version 2023
 
 ## Use Maven to run test
