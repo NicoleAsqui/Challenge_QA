@@ -22,7 +22,7 @@ The command provided above will produce a Serenity test report in the `target/si
 ![Alt text](image-2.png)
 ![Alt text](image-3.png)
 
-Findings and Conclusions
+##Findings and Conclusions
 
 When performing the test flow when you wanted to add a product to the cart and then evaluated that the cart total is the sum of the selected products, it was found on some occasions that the test failed, ie the expected sum was not the correct total sum, this was because they were not selecting the total correctly from the page as it was prevented by a confrmacikón alert that is displayed on the page when you add a product. 
 
