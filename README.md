@@ -1,6 +1,6 @@
 # Serenity BDD Challenge QA
 
-This project was developed on a Mac but can be run on any device that contains it:
+This project was developed on a MacOs:
 
 - JDK version 11.0
 - Serenity 3.5
@@ -11,7 +11,7 @@ This project was developed on a Mac but can be run on any device that contains i
 
 Open a command window and run:
 
-    mvn clean verify
+    make install-macos
 
 ## Viewing the reports
 
