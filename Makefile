@@ -1,7 +1,6 @@
 
 # Comandos de instalación para macOS
 install-macos:
-	brew install openjdk@8
 	brew install maven
 	mvn clean verify
 
