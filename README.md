@@ -7,11 +7,23 @@ This project was developed on a MacOs:
 - Maven version 3.9.3
 - IntelliJ IDE version 2023
 
-## Use Maven to run test
+## Use Maven to run test on Mac
 
 Open a command window and run:
 
     make install-macos
+    
+## Use Maven to run test on Windows
+
+Open a command window and run:
+
+    mvn clean verify
+
+First check if you have maven installed to be able to run it, 
+
+    mvn -version
+    
+if not please download it, in windows it is installed as this link: https://phoenixnap.com/kb/install-maven-windows
 
 ## Viewing the reports
 
