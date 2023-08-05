@@ -7,15 +7,9 @@ This project was developed on a MacOs:
 - Maven version 3.9.3
 - IntelliJ IDE version 2023
 
-## Use Maven to run test on Mac
+## Use Maven to run test 
 
-Open a command window and run:
-
-    make install-macos
-    
-## Use Maven to run test on Windows
-
-Open a command window and run:
+Open a terminal and run:
 
     mvn clean verify
 
